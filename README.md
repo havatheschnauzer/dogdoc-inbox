@@ -10,6 +10,9 @@ The project is being designed for people who have records spread across veterina
 
 > **Project status:** Early development. The first desktop build is planned for macOS, with Windows support to follow.
 
+> **Have an idea, want to contribute, or just want to follow along?**
+> Shoot me an email at **[havatheschnauzer@gmail.com](mailto:havatheschnauzer@gmail.com)**. I'm open to ideas, contributions, and input on the [roadmap](ROADMAP.md).
+
 ## What DogDoc Inbox is trying to solve
 
 Veterinary records tend to accumulate in many formats and many places. DogDoc Inbox aims to make those records easier to use while keeping the original documents central to the experience.
@@ -58,9 +61,9 @@ Developers who are also part of the **dog fancy** are especially encouraged to p
 
 Dog experience is absolutely not required to contribute.
 
-If you are interested, open an issue introducing yourself and the area you would like to work on, or pick up an existing issue once development tasks are published.
+If you are interested, **email me at [havatheschnauzer@gmail.com](mailto:havatheschnauzer@gmail.com)** or open an issue introducing yourself and the area you would like to work on.
 
-See [CONTRIBUTING.md](CONTRIBUTING.md) for contribution guidelines.
+See [CONTRIBUTING.md](CONTRIBUTING.md) for the short version, and [ROADMAP.md](ROADMAP.md) for where the project is headed.
 
 ## Privacy and test data
 
@@ -80,6 +83,6 @@ MPL-2.0 is an open-source, file-level copyleft license. In practical terms, modi
 
 ## Roadmap
 
-The initial goal is deliberately narrow: prove that a local desktop application can take a small collection of real-world veterinary documents and turn them into a trustworthy, searchable, source-linked health history.
+The first priority is being able to **import a dog and aggregate all of its scattered records into one health history** — the thing that matters most to real owners.
 
-More implementation details and development issues will be published as the foundation is built.
+See **[ROADMAP.md](ROADMAP.md)** for the current priorities and what's planned next. Ideas and input are welcome — [email me](mailto:havatheschnauzer@gmail.com).
