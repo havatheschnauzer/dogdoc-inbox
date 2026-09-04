@@ -6,7 +6,7 @@ DogDoc Inbox is being developed as an open-source, local-first desktop applicati
 
 The project is being designed for people who have records spread across veterinary portals, PDFs, laboratory reports, certificates, scans, photos, and downloaded files, and want a practical way to understand what they have without moving their entire archive into another cloud service.
 
-![DogDoc Inbox dashboard concept](docs/images/dogdoc-inbox-dashboard.jpg)
+![DogDoc Inbox dashboard concept](assets/dogdoc-inbox-dashboard.jpg)
 
 > **Project status:** Early development. The first desktop build is planned for macOS, with Windows support to follow.
 
