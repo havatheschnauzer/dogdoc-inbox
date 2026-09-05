@@ -52,6 +52,42 @@ DogDoc Inbox is being built around a few non-negotiable ideas:
 
 **Useful trends, not decorative charts.** A measurement should only become a trend when repeated data actually makes the trend meaningful.
 
+## Architecture
+
+DogDoc Inbox runs as one local-first desktop process: a React and TypeScript interface on a Tauri (Rust) shell, reading and writing on-device SQLite plus your original files. Nothing leaves your machine.
+
+```mermaid
+flowchart TB
+    subgraph UI["UI: React + TypeScript (Vite)"]
+        A1[App shell + dog selector]
+        A2["Import: picker · folder · drag-drop"]
+        A3[Document viewer]
+        A4["Timeline · weight chart · export (later)"]
+    end
+    subgraph SHELL["Desktop shell: Tauri (Rust)"]
+        B1["dialog plugin: file picker"]
+        B2["fs plugin: read / copy files"]
+        B3["sql plugin: SQLite access"]
+    end
+    subgraph DATA["Local storage: on device"]
+        C1[("SQLite\ndogs · source_documents · health_events*")]
+        C2[[Original files on disk]]
+    end
+    UI --> SHELL --> DATA
+
+    classDef ui fill:#E3F2FD,stroke:#1E88E5,color:#0D47A1;
+    classDef shell fill:#E0F2F1,stroke:#00897B,color:#004D40;
+    classDef data fill:#FFF3E0,stroke:#EF6C00,color:#E65100;
+    class A1,A2,A3,A4 ui
+    class B1,B2,B3 shell
+    class C1,C2 data
+    style UI fill:#F5FAFF,stroke:#90CAF9,color:#0D47A1
+    style SHELL fill:#F1FBFA,stroke:#80CBC4,color:#004D40
+    style DATA fill:#FFF9F0,stroke:#FFCC80,color:#E65100
+```
+
+For the full picture, including how a document travels from import to display, see [docs/architecture.md](docs/architecture.md). The reasoning behind each choice lives in the [ADRs](docs/adr/).
+
 ## Privacy and test data
 
 Please do **not** commit private veterinary records, personally identifying information, client records, or unredacted medical documents to this repository.
