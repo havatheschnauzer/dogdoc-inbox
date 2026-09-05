@@ -19,6 +19,12 @@ This follows the lightweight ADR approach popularized by Michael Nygard.
 
 ## Trade-offs
 
-- Contributors can understand *why* the project is the way it is, not just *what* it is.
-- New decisions have an obvious, low-friction place to live.
-- The log must be kept honest: a decision reversed in practice but not in an ADR is a documentation bug.
+**What we gain**
+
+- Contributors understand *why* the project is the way it is, not just *what* — every decision carries its reasoning.
+- New decisions get an obvious, low-friction home instead of scattering across chat, issues, or one person's memory.
+
+**What it costs**
+
+- A small, ongoing discipline: writing the record as each significant decision is made.
+- The log is only trustworthy if it's kept honest — a decision reversed in practice but never recorded becomes a documentation bug.

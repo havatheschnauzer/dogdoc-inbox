@@ -13,7 +13,13 @@ Local data will be stored in **SQLite**, using its full-text search capability f
 
 ## Trade-offs
 
-- A single embedded, well-understood, file-based database with no separate service to run.
-- Full-text search is available locally without additional infrastructure.
-- Original documents remain the source of truth; the database holds the extracted and organizational data that links back to them.
-- Schema migrations must be handled deliberately as the data model evolves.
+**What we gain**
+
+- A single embedded, well-understood, file-based database with no separate service to run or secure.
+- Local full-text search with no additional infrastructure.
+- The database stays a derived index over untouched original documents, so it can be rebuilt from source if needed.
+
+**What it costs**
+
+- We own schema migrations and versioning as the data model evolves.
+- SQLite fits local, single-user access; a future networked or multi-user need would mean revisiting the storage choice.

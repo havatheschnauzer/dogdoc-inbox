@@ -13,7 +13,13 @@ DogDoc Inbox will be a **local-first desktop application**. Core work — import
 
 ## Trade-offs
 
-- Owners keep control of their documents; privacy is a structural property, not a policy promise.
-- The application must do real work locally (parsing, OCR, storage, search) rather than offloading it to a server.
-- Cross-device sync and collaboration are not free and would need deliberate, opt-in design later.
-- Any future cloud feature must be additive and optional, and should be discussed before it touches core functionality.
+**What we gain**
+
+- Owners keep control of their documents; privacy becomes a structural property, not a policy promise.
+- No server to run, secure, or pay for, and the app keeps working offline.
+
+**What it costs**
+
+- More work on the client: parsing, OCR, storage, and search all run locally instead of on a server.
+- We give up free cross-device sync and collaboration — they would need deliberate, opt-in design later.
+- Every future cloud feature must stay additive and optional, and be discussed before it touches core functionality.

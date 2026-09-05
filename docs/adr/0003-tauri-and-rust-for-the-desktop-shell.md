@@ -13,7 +13,13 @@ The desktop shell will be built with **Tauri**, with the application core in **R
 
 ## Trade-offs
 
-- Small binaries and low memory footprint compared with bundling a full browser runtime.
-- Rust provides a strong foundation for the performance- and correctness-sensitive parts: file watching, hashing, duplicate detection, parsing, and extraction.
-- Cross-platform packaging (macOS, later Windows) is supported by Tauri's tooling.
-- The project needs Rust proficiency for core work, and the web/Rust boundary must be designed deliberately.
+**What we gain**
+
+- Small binaries and a low memory footprint compared with bundling a full browser runtime (e.g. Electron).
+- A strong, safe foundation in Rust for the performance- and correctness-sensitive core: file watching, hashing, duplicate detection, parsing, extraction.
+- Cross-platform packaging for macOS now and Windows later, via Tauri's tooling.
+
+**What it costs**
+
+- A Rust learning curve on the core — a smaller pool of contributors can comfortably work there.
+- An extra seam to design and maintain: the boundary between the web UI and the Rust layer.

@@ -13,7 +13,12 @@ The user interface will be built with **React** and **TypeScript**.
 
 ## Trade-offs
 
-- A large, familiar ecosystem lowers the barrier for UI contributors.
-- TypeScript's type checking helps keep the UI honest as the data model — extracted facts, their sources, and confidence — grows.
-- Requires a clearly defined, typed boundary between the React UI and the Rust core.
-- Accessibility remains an explicit responsibility rather than something the framework guarantees on its own.
+**What we gain**
+
+- A large, familiar ecosystem that lowers the barrier for UI contributors.
+- TypeScript's type checking keeps the UI honest as the data model — facts, their sources, confidence — grows.
+
+**What it costs**
+
+- A front-end build toolchain to set up and maintain, plus the upkeep of a typed boundary between the React UI and the Rust core.
+- Accessibility stays our explicit responsibility — the framework does not guarantee it for us.
