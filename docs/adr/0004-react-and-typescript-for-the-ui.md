@@ -11,7 +11,7 @@ DogDoc Inbox has a document-centric, review-heavy interface: health timelines, d
 
 The user interface will be built with **React** and **TypeScript**.
 
-## Consequences
+## Trade-offs
 
 - A large, familiar ecosystem lowers the barrier for UI contributors.
 - TypeScript's type checking helps keep the UI honest as the data model — extracted facts, their sources, and confidence — grows.

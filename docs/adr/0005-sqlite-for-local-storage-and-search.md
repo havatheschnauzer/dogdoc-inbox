@@ -11,7 +11,7 @@ The application needs durable local storage for extracted facts, document metada
 
 Local data will be stored in **SQLite**, using its full-text search capability for search across records and extracted information.
 
-## Consequences
+## Trade-offs
 
 - A single embedded, well-understood, file-based database with no separate service to run.
 - Full-text search is available locally without additional infrastructure.

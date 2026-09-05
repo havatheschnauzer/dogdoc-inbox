@@ -19,5 +19,5 @@ Each record is immutable once **Accepted**: to change a decision, add a new ADR 
 
 1. Copy the structure of an existing record.
 2. Give it the next number and a short, descriptive title (`NNNN-title.md`).
-3. Fill in Context, Decision, and Consequences; set Status and Date.
+3. Fill in Context, Decision, and Trade-offs; set Status and Date.
 4. Add a row to the index above.

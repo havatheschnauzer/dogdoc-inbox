@@ -11,7 +11,7 @@ The product handles veterinary records, which owners consider private and person
 
 DogDoc Inbox will be a **local-first desktop application**. Core work — importing, organizing, extracting, searching — happens on the user's own machine. No cloud account or silent document upload is required for core functionality. Original files are preserved in place rather than replaced by generated summaries.
 
-## Consequences
+## Trade-offs
 
 - Owners keep control of their documents; privacy is a structural property, not a policy promise.
 - The application must do real work locally (parsing, OCR, storage, search) rather than offloading it to a server.

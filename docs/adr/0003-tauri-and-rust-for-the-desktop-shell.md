@@ -11,7 +11,7 @@ A local-first desktop app (see [ADR 0002](0002-local-first-desktop-architecture.
 
 The desktop shell will be built with **Tauri**, with the application core in **Rust**. The UI runs in Tauri's system web view (see [ADR 0004](0004-react-and-typescript-for-the-ui.md)), while filesystem access, document processing, and persistence live in the Rust layer.
 
-## Consequences
+## Trade-offs
 
 - Small binaries and low memory footprint compared with bundling a full browser runtime.
 - Rust provides a strong foundation for the performance- and correctness-sensitive parts: file watching, hashing, duplicate detection, parsing, and extraction.

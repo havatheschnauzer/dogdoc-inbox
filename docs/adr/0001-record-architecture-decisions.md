@@ -12,12 +12,12 @@ DogDoc Inbox is in early development, and several foundational decisions — how
 We will record significant architecture and project decisions as Architecture Decision Records (ADRs) in `docs/adr/`.
 
 - Each ADR is a numbered Markdown file (`NNNN-title.md`).
-- Each ADR captures **Context**, the **Decision**, and its **Consequences**, plus a **Status** and **Date**.
+- Each ADR captures **Context**, the **Decision**, and its **Trade-offs**, plus a **Status** and **Date**.
 - ADRs are immutable once Accepted. A decision is changed by adding a new ADR that supersedes the earlier one, which is then marked **Superseded**.
 
 This follows the lightweight ADR approach popularized by Michael Nygard.
 
-## Consequences
+## Trade-offs
 
 - Contributors can understand *why* the project is the way it is, not just *what* it is.
 - New decisions have an obvious, low-friction place to live.
