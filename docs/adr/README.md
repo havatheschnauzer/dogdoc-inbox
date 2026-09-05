@@ -14,6 +14,7 @@ Each record is immutable once **Accepted**: to change a decision, add a new ADR 
 | [0004](0004-react-and-typescript-for-the-ui.md) | React and TypeScript for the UI | Accepted |
 | [0005](0005-sqlite-for-local-storage-and-search.md) | SQLite for local storage and search | Accepted |
 | [0006](0006-mpl-2.0-license.md) | MPL-2.0 license | Accepted |
+| [0007](0007-code-of-conduct.md) | Contributor Covenant code of conduct | Accepted |
 
 ## Adding a new ADR
 
