@@ -9,7 +9,7 @@ DogDoc Inbox actively invites contributors and aims to be a welcoming, community
 
 ## Decision
 
-Adopt the **Contributor Covenant, version 2.1** as the project's code of conduct, with **havatheschnauzer@gmail.com** as the reporting and enforcement contact. See [CODE_OF_CONDUCT.md](../../CODE_OF_CONDUCT.md).
+Adopt the **[Contributor Covenant, version 2.1](https://www.contributor-covenant.org/version/2/1/code_of_conduct/)** as the project's code of conduct, with **havatheschnauzer@gmail.com** as the reporting and enforcement contact. The full adopted text lives in [CODE_OF_CONDUCT.md](../../CODE_OF_CONDUCT.md).
 
 ## Trade-offs
 
