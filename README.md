@@ -28,6 +28,16 @@ At a high level, the application is intended to help users:
 - Trace important facts back to the original supporting document.
 - Create concise, source-linked reports for veterinarians, breeders, co-owners, or puppy owners.
 
+## Looking for contributors
+
+DogDoc Inbox is at the stage where additional developers can have a meaningful influence on the project. If you're interested, get in touch (contact details are at the top) and let me know the area you'd like to work on.
+
+Developers who are also part of the **dog fancy** — dog shows, performance sports, breeding, health testing, or multi-dog record keeping — bring valuable domain perspective. But dog experience is absolutely not required.
+
+See **[CONTRIBUTING.md](CONTRIBUTING.md)** to get started and **[ROADMAP.md](ROADMAP.md)** for where the project is headed.
+
+The stack is a local-first desktop app — **Tauri + Rust**, **React + TypeScript**, **SQLite**, with PDF/OCR document processing. The reasoning behind those choices is in **[docs/adr/](docs/adr/)**.
+
 ## Product principles
 
 DogDoc Inbox is being built around a few non-negotiable ideas:
@@ -41,29 +51,6 @@ DogDoc Inbox is being built around a few non-negotiable ideas:
 **Human review matters.** Automated extraction can be useful, but uncertain or important information should be reviewable and correctable by the owner.
 
 **Useful trends, not decorative charts.** A measurement should only become a trend when repeated data actually makes the trend meaningful.
-
-## Looking for contributors
-
-DogDoc Inbox is at the stage where additional developers can have a meaningful influence on the project.
-
-Contributions and discussion are especially welcome from people interested in:
-
-- Rust and Tauri desktop development
-- React and TypeScript user interfaces
-- PDF processing and document rendering
-- OCR and document extraction
-- SQLite and local search
-- Desktop privacy and local-first application design
-- Test automation and document-processing quality
-- Accessible, understandable health-record interfaces
-
-Developers who are also part of the **dog fancy** are especially encouraged to participate. Experience with dog shows, performance sports, breeding programs, health testing, veterinary-record workflows, or managing records for multiple dogs can provide valuable domain perspective.
-
-Dog experience is absolutely not required to contribute.
-
-If you are interested, get in touch (contact details are at the top) and let me know the area you would like to work on.
-
-See [CONTRIBUTING.md](CONTRIBUTING.md) for the short version, and [ROADMAP.md](ROADMAP.md) for where the project is headed. The reasoning behind key technical decisions is recorded in [docs/adr/](docs/adr/).
 
 ## Privacy and test data
 
