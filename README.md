@@ -1,6 +1,6 @@
 # DogDoc Inbox
 
-**Turn scattered veterinary documents into a usable health history.**
+**Bring your dog's scattered vet records into one private health dashboard — and find any test, vaccine, or weight in seconds.**
 
 DogDoc Inbox is being developed as an open-source, local-first desktop application for organizing a dog's veterinary records into a searchable, source-linked health history.
 
