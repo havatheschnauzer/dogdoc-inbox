@@ -1,5 +1,14 @@
 # Contributor Covenant Code of Conduct
 
+**About this document.** DogDoc Inbox has adopted the
+[Contributor Covenant](https://www.contributor-covenant.org/) (version 2.1) as
+its code of conduct. In plain terms, it lays out how we treat one another in
+this community and what happens if someone behaves unacceptably. It is one of
+the most widely adopted codes of conduct in open source and used by popular projects and major companies including Google,
+Microsoft, and Apple. You can see the full
+[list of adopters](https://www.contributor-covenant.org/adopters/). The complete
+text and attribution is below:
+
 ## Our Pledge
 
 We as members, contributors, and leaders pledge to make participation in our
