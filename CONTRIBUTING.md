@@ -2,7 +2,7 @@
 
 DogDoc Inbox is in early development, and I'd genuinely like to hear from you.
 
-The best first step is just to **email me at [havatheschnauzer@gmail.com](mailto:havatheschnauzer@gmail.com)** or open an issue. Tell me what you're interested in — code, testing, design, domain knowledge about how dog owners and breeders actually manage records, or ideas for the [roadmap](ROADMAP.md) — and we'll figure out a good starting point together.
+The best first step is to **email Aaron Smith at [havatheschnauzer@gmail.com](mailto:havatheschnauzer@gmail.com)** — or open an issue if you prefer. Tell me what you're interested in — code, testing, design, domain knowledge about how dog owners and breeders actually manage records, or ideas for the [roadmap](ROADMAP.md) — and we'll figure out a good starting point together.
 
 Dog experience is not required. If you *are* part of the dog fancy (shows, sports, breeding, health testing, multi-dog record keeping), that perspective is especially valuable.
 

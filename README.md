@@ -11,7 +11,7 @@ The project is being designed for people who have records spread across veterina
 > **Project status:** Early development. The first desktop build is planned for macOS, with Windows support to follow.
 
 > **Have an idea, want to contribute, or just want to follow along?**
-> Shoot me an email at **[havatheschnauzer@gmail.com](mailto:havatheschnauzer@gmail.com)**. I'm open to ideas, contributions, and input on the [roadmap](ROADMAP.md).
+> Email **Aaron Smith** at **[havatheschnauzer@gmail.com](mailto:havatheschnauzer@gmail.com)** — I'm open to ideas, contributions, and input on the [roadmap](ROADMAP.md).
 
 ## What DogDoc Inbox is trying to solve
 
@@ -61,7 +61,7 @@ Developers who are also part of the **dog fancy** are especially encouraged to p
 
 Dog experience is absolutely not required to contribute.
 
-If you are interested, **email me at [havatheschnauzer@gmail.com](mailto:havatheschnauzer@gmail.com)** or open an issue introducing yourself and the area you would like to work on.
+If you are interested, get in touch (contact details are at the top) and let me know the area you would like to work on.
 
 See [CONTRIBUTING.md](CONTRIBUTING.md) for the short version, and [ROADMAP.md](ROADMAP.md) for where the project is headed. The reasoning behind key technical decisions is recorded in [docs/adr/](docs/adr/).
 
@@ -85,4 +85,4 @@ MPL-2.0 is an open-source, file-level copyleft license. In practical terms, modi
 
 The first priority is being able to **import a dog and aggregate all of its scattered records into one health history** — the thing that matters most to real owners.
 
-See **[ROADMAP.md](ROADMAP.md)** for the current priorities and what's planned next. Ideas and input are welcome — [email me](mailto:havatheschnauzer@gmail.com).
+See **[ROADMAP.md](ROADMAP.md)** for the current priorities and what's planned next. Ideas and input are welcome.

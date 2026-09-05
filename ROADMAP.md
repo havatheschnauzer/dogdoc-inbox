@@ -1,6 +1,6 @@
 # DogDoc Inbox — Roadmap
 
-This roadmap is early and will change as the project takes shape. It exists to make the priorities visible, not to promise dates. Ideas and feedback are welcome — [email me at havatheschnauzer@gmail.com](mailto:havatheschnauzer@gmail.com).
+This roadmap is early and will change as the project takes shape. It exists to make the priorities visible, not to promise dates. Ideas and feedback are welcome — see the [README](README.md) for how to get in touch.
 
 ## The first priority
 
