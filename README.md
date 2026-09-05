@@ -63,7 +63,7 @@ Dog experience is absolutely not required to contribute.
 
 If you are interested, **email me at [havatheschnauzer@gmail.com](mailto:havatheschnauzer@gmail.com)** or open an issue introducing yourself and the area you would like to work on.
 
-See [CONTRIBUTING.md](CONTRIBUTING.md) for the short version, and [ROADMAP.md](ROADMAP.md) for where the project is headed.
+See [CONTRIBUTING.md](CONTRIBUTING.md) for the short version, and [ROADMAP.md](ROADMAP.md) for where the project is headed. The reasoning behind key technical decisions is recorded in [docs/adr/](docs/adr/).
 
 ## Privacy and test data
 
